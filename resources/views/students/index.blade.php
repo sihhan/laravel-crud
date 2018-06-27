@@ -3,7 +3,7 @@
 @section('content')
     <h2>CRUD DEMO</h2>
     <hr>
-    <a class="waves-effect waves-light btn blue" href="">Create New</a>
+    <a class="waves-effect waves-light btn blue" href="{{ url('/students/create') }}">Create New</a>
     <div>
         <p class="card-panel teal lighten-2">Data added successfully</p>
     </div>
