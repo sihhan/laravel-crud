@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::resource('students', 'StudentController');
+// Route::resource('students', 'StudentController');
+Route::get('/', 'StudentController@index');
+Route::get('students', 'StudentController@index');
+Route::get('students/create', 'StudentController@create');
+Route::post('students/create', 'StudentController@store');
