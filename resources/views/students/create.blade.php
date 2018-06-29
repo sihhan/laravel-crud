@@ -4,7 +4,7 @@
     
     <h2>CRUD DEMO</h2>
     <hr>
-    <a class="waves-effect waves-light btn blue" href="">Read Data</a>
+    <a class="waves-effect waves-light btn blue" href="{{ url('/') }}">Read Data</a>
 
     <div class="row">
 
