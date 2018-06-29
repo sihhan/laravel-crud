@@ -2,7 +2,7 @@
 
 @section('content')
     
-    <h2>CRUD DEMO</h2>
+    <h2>Create</h2>
     <hr>
     <a class="waves-effect waves-light btn blue" href="{{ url('/') }}">Read Data</a>
 
@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">account_circle</i>
-                    <input id="name" name="student" type="text" class="validate">
+                    <input id="name" name="name" type="text" class="validate">
                     <label for="name">Name</label>
                 </div>
 
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <button type="submit" class="btn waves-effect waves-light">Submint</button>
+            <button type="submit" class="btn waves-effect waves-light">Create</button>
 
         </form>
     </div>
